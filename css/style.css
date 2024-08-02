@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 60vw;
+}
+
+header, nav, main, footer {
+    width: 100vw;
+    margin: auto;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    width: 75vw;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+}
+.rodape1{
+    position: absolute;
+}
+@media (min-width: 380px) and (min-height: 840px){   
+    .rodape1{
+        position: absolute;
+    }
+    .rodape2{
+        position: absolute;
+    }
+}
+@media (min-width: 660px) and (min-height: 360px){   
+    .rodape1{
+        position: relative;
+    }
+    .rodape2{
+        position: relative;
+    }
+}
+@media(min-width: 768px) and (min-height: 900px){   
+    .rodape1{
+        position: relative;
+    }
+    .rodape2{
+        position: absolute;
+    }
+}
+@media(min-width: 800px) and (min-height: 1000px){   
+    .rodape1{
+        position: absolute;
+    }
+    .rodape2{
+        position: absolute;
+    }
+    .rodape3{
+        position: absolute;
+    }
+}
+@media(min-width: 1000px) and (min-height: 810px){
+    .rodape2{
+        position: absolute;
+    }
+}
